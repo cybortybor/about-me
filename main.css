@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: dimgray;
+}
+.head {
+  float: right;
+  height: 250px;
+  width: 800px;
+  background-image: url(assets/About.png);
+  background-size: 850px 230px, contain;
+  position:relative;
+  z-index: 0;
+}
+
+h1 {
+  color: darkgoldenrod;
+  font-family: 'Roboto', sans-serif;
+  font-size: 100px;
+  text-align: center;
+  margin-top: 75px;
+  letter-spacing: 9px;
+
+}
+
+#name {
+  color: white;
+  font-size: 80px;
+  font-family: 'Mrs Saint Delafield', cursive;
+  margin-left: 280px;
+  position:relative;
+  top: -18px;
+  left: 10px;
+  text-shadow: 1px 1px 4px darkgoldenrod;
+}
+
+h2 {
+  font-family: 'Farro', sans-serif;
+  font-size: 19px;
+  margin-left: 255px;
+  position:relative;
+  top: -25px;
+  left: 1px;
+  letter-spacing: 0.04em;
+  color: white;
+}
+
+
+.profile-img {
+  float: left;
+  height: 400px;
+  width: 250px;
+  background-image: url(assets/Profil_img.jpg);
+  background-size: 300px 400px, contain;
+  position:relative;
+  top: 22px;
+  left: -80px;
+  z-index: 1;
+  border: 1px solid darkgoldenrod;
+  border-radius: 3%;
+  filter: sepia(55%);
+}
+
+.profile-img:hover {
+  transform: scale(1.3);
+  filter: grayscale(10%);
+  border-radius: 20%;
+  border: 1px solid white;
+  box-shadow: hsla(360, 100%, 100%, 0.89) 10px 10px 90px;
+  background-color: hsla(1, 0%, 100%, .5);
+}
+
+.border {
+  height: 400px;
+  width: 250px;
+  position: relative;
+  top: 299px;
+  left: -50px;
+  z-index: 0;
+  border-style: solid;
+  border-color: white;
+  border-width: 8px;
+}
+
+.content {
+  float: right;
+  height: 300px;
+  width: 500px;
+  position:relative;
+  top: -50px;
+  left: -40px;
+  font-family: 'Farro', sans-serif;
+  text-align: justify;
+  line-height: 1.5em;
+}
+
+p {
+ color: white;
+}
+
+.links {
+  height: 100px;
+  clear: both;
+  position: relative;
+  top: -30px;
+  left: 70px;
+  padding-top: 11px;
+  text-align: center;
+}
+
+.profile-card {
+  width: 800px;
+  max-width: calc(100vw - 10px);
+  box-shadow: hsla(0, 0%, 0%, .9) 0px 10px 300px;
+}
+
+i {
+  color: hsla(360, 100%, 100%, 1)
+}
+
+i:hover {
+  color: hsla(43, 89%, 38%, 1)
+}
+
+ul{
+  list-style-type: none;
+}
+
+li {
+  margin: 16px;
+  display: inline;
+}
+
+#contact {
+  vertical-align: 15px;
+  font-size: 19px;
+}
