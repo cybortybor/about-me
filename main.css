@@ -59,6 +59,7 @@ h2 {
   height: 400px;
   width: 250px;
   background-image: url(assets/Profil_img.jpg);
+  transition: all 0.5s ease-in-out;
   background-size: 300px 400px, contain;
   position:relative;
   top: 22px;
