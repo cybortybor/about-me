@@ -44,7 +44,7 @@ h1 {
   position:relative;
   top: -18px;
   left: 10px;
-  text-shadow: 1px 1px 1px #e6c300;
+  text-shadow: 1px 1px 2px darkgrey;
 }
 
 h2 {
