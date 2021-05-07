@@ -49,11 +49,11 @@ h1 {
 
 h2 {
   font-family: 'Farro', sans-serif;
-  font-size: 19px;
+  font-size: 17px;
   margin-left: 255px;
   position:relative;
-  top: -25px;
-  left: 1px;
+  top: -18px;
+  left: 4px;
   letter-spacing: 0.04em;
   color: white;
 }
