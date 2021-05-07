@@ -32,6 +32,7 @@ h1 {
   text-align: center;
   margin-top: 75px;
   letter-spacing: 9px;
+  text-shadow: 1px 1px 7px #e6c300;
 
 }
 
@@ -43,7 +44,7 @@ h1 {
   position:relative;
   top: -18px;
   left: 10px;
-  text-shadow: 1px 1px 4px #ffd700;
+  text-shadow: 1px 1px 1px #e6c300;
 }
 
 h2 {
@@ -124,7 +125,7 @@ p {
 .profile-card {
   width: 800px;
   max-width: calc(100vw - 10px);
-  box-shadow: hsla(0, 0%, 0%, .9) 0px 10px 300px;
+  box-shadow: hsla(51, 100%, 50%, 1) 0px 10px 300px;
 }
 
 i {
