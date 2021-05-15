@@ -17,10 +17,10 @@ body {
 
 .head {
   float: right;
-  height: 250px;
-  width: 800px;
+  height: 15.625rem;
+  width: 50rem;
   background-image: url(assets/About.png);
-  background-size: 850px 230px, contain;
+  background-size: 53.125rem 14.375rem, contain;
   position:relative;
   z-index: 0;
 }
@@ -28,32 +28,32 @@ body {
 h1 {
   color: #ffd700;
   font-family: 'Roboto', sans-serif;
-  font-size: 100px;
+  font-size: 6.25rem;
   text-align: center;
-  margin-top: 75px;
-  letter-spacing: 9px;
+  margin-top: 4.688rem;
+  letter-spacing: 0.563rem;
   text-shadow: 1px 1px 7px #e6c300;
 
 }
 
 #name {
   color: #ffd700;
-  font-size: 80px;
+  font-size: 5rem;
   font-family: 'Mrs Saint Delafield', cursive;
-  margin-left: 280px;
+  margin-left: 17.5rem;
   position:relative;
-  top: -18px;
-  left: 10px;
+  top: -1.125rem;
+  left: 0.625rem;
   text-shadow: 1px 1px 2px darkgrey;
 }
 
 h2 {
   font-family: 'Farro', sans-serif;
-  font-size: 17px;
-  margin-left: 255px;
+  font-size: 1.063rem;
+  margin-left: 15.938rem;
   position:relative;
-  top: -18px;
-  left: 4px;
+  top: -1.125rem;
+  left: 0.25rem;
   letter-spacing: 0.04em;
   color: white;
 }
@@ -61,14 +61,14 @@ h2 {
 
 .profile-img {
   float: left;
-  height: 400px;
-  width: 250px;
-  background-image: url(assets/Profil_img.jpg);
+  height: 25rem;
+  width: 17rem;
+  background-image: url(assets/Profil2.png);
   transition: all 0.5s ease-in-out;
-  background-size: 300px 400px, contain;
+  background-size: 18.75rem 25rem, contain;
   position:relative;
-  top: 22px;
-  left: -80px;
+  top: 1.375rem;
+  left: -5.938rem;
   z-index: 1;
   border: 1px solid;
   border-radius: 3%;
@@ -85,11 +85,11 @@ h2 {
 }
 
 .border {
-  height: 400px;
-  width: 250px;
+  height: 25rem;
+  width: 15.625rem;
   position: relative;
-  top: 299px;
-  left: -50px;
+  top: 18.688rem;
+  left: -3.125rem;
   z-index: 0;
   border-style: solid;
   border-color: #ffd700;
@@ -98,11 +98,11 @@ h2 {
 
 .content {
   float: right;
-  height: 300px;
-  width: 500px;
+  height:18.75rem;
+  width: 31.25rem;
   position:relative;
-  top: -50px;
-  left: -40px;
+  top: -3.125rem;
+  left: -2.5rem;
   font-family: 'Farro', sans-serif;
   text-align: justify;
   line-height: 1.5em;
@@ -113,17 +113,16 @@ p {
 }
 
 .links {
-  height: 100px;
+  height: 6.25rem;
   clear: both;
   position: relative;
-  top: -30px;
-  left: 70px;
-  padding-top: 11px;
+  left: 4.375rem;
+  padding-top: 0.688rem;
   text-align: center;
 }
 
 .profile-card {
-  width: 800px;
+  width: 50rem;
   max-width: calc(100vw - 10px);
   box-shadow: hsla(51, 100%, 50%, 1) 0px 10px 300px;
 }
@@ -141,11 +140,11 @@ ul{
 }
 
 li {
-  margin: 16px;
+  margin: 1rem;
   display: inline;
 }
 
 #contact {
-  vertical-align: 15px;
-  font-size: 19px;
+  vertical-align: 0.938rem;
+  font-size: 1.188rem;
 }
