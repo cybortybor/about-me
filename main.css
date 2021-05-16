@@ -20,9 +20,73 @@ body {
   height: 15.625rem;
   width: 50rem;
   background-image: url(assets/About.png);
-  background-size: 53.125rem 14.375rem, contain;
+  background-size: 53.1rem 14.3rem, contain;
   position:relative;
   z-index: 0;
+}
+
+header {
+  text-transform: uppercase;
+  display: inline-block;
+  font: 1.4rem 'Farro', sans-serif;
+  text-decoration: none;
+  position: relative;
+  top: -33rem;
+  left: -15rem;
+}
+
+.lang-bar {
+  color: hsla(51, 100%, 50%, 1);
+}
+
+.lang-menu {
+  color: hsla(51, 100%, 50%, 1);
+}
+
+a.active {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 10%;
+}
+
+a:link    {
+  text-decoration: none;
+  color:goldenrod;
+}
+
+a:visited {
+  text-align: center;
+  display: flex;
+  color: goldenrod;
+  border-radius: 10%;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.lang-en {
+  text-decoration: none;
+  margin: 0px 0px 0px 8px;
+  padding: 0px 10px;
+}
+
+.lang-it {
+  text-decoration: none;
+  margin: 0px 0px 0px 8px;
+  padding: 0px 0px;
+}
+
+.lang-de {
+  text-decoration: none;
+  margin: 0px 0px 0px 8px;
+  padding: 0px 0px;
+}
+
+.lang-hu {
+  text-decoration: none;
+  margin: 0px 0px 0px 8px;
+  padding: 0px 0px;
 }
 
 h1 {
@@ -33,7 +97,6 @@ h1 {
   margin-top: 4.688rem;
   letter-spacing: 0.563rem;
   text-shadow: 1px 1px 7px #e6c300;
-
 }
 
 #name {
@@ -67,7 +130,7 @@ h2 {
   transition: all 0.5s ease-in-out;
   background-size: 18.75rem 25rem, contain;
   position:relative;
-  top: 1.375rem;
+  top: 1.37rem;
   left: -5.938rem;
   z-index: 1;
   border: 1px solid;
@@ -98,7 +161,7 @@ h2 {
 
 .content {
   float: right;
-  height:18.75rem;
+  height: 18.75rem;
   width: 31.25rem;
   position:relative;
   top: -3.125rem;
@@ -116,7 +179,7 @@ p {
   height: 6.25rem;
   clear: both;
   position: relative;
-  left: 4.375rem;
+  left: 4.37rem;
   padding-top: 0.688rem;
   text-align: center;
 }
@@ -128,14 +191,14 @@ p {
 }
 
 i {
-  color:  hsla(360, 100%, 100%, 1)
+  color: hsla(360, 100%, 100%, 1)
 }
 
 i:hover {
   color: hsla(51, 100%, 50%, 1)
 }
 
-ul{
+ul {
   list-style-type: none;
 }
 
