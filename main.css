@@ -10,8 +10,20 @@ body {
   align-items: center;
   height: 100vh;
   background: url(assets/thumb-1920-373691.jpeg) no-repeat center center fixed;
-  text-align: justify;
   background-size: cover;
+}
+
+header {
+  display: inline-block;
+  position: absolute;
+  top: 8%;
+  left: 10%;
+}
+
+.profile-card {
+  width: 50rem;
+  max-width: calc(100vw - 10px);
+  box-shadow: hsla(51, 100%, 50%, 1) 0px 10px 300px;
 }
 
 .head {
@@ -19,22 +31,11 @@ body {
   height: 15.625rem;
   width: 50rem;
   background-image: url(assets/About.png);
-  background-size: 53.1rem 14.3rem, contain;
-  z-index: 0;
-}
-
-header {
-  font: 1.4rem 'Farro', sans-serif;
-  text-decoration: none;
-  position: relative;
-  top: -35rem;
-  left: 35rem;
-  color: hsla(51, 100%, 50%, 1);
-  align-items: center;
+  background-size: 53.1rem 14.3rem;
+  z-index: 1;
 }
 
 .lang-menu {
-  width: 36vw;
   color: hsla(51, 100%, 50%, 1);
 }
 
@@ -44,7 +45,7 @@ a.active {
   border-radius: 10%;
 }
 
-a:link    {
+a:link {
   text-decoration: none;
   color:goldenrod;
 }
@@ -74,13 +75,13 @@ a:hover {
 
 .lang-de {
   text-decoration: none;
-  margin: 0px 0px 0px 8px;
+  margin: 0px 0px 0px 10px;
   padding: 0px 10px;
 }
 
 .lang-hu {
   text-decoration: none;
-  margin: 0px 0px 0px 8px;
+  margin: 0px 0px 0px 0px;
   padding: 0px 10px;
 }
 
@@ -115,7 +116,6 @@ h2 {
   letter-spacing: 0.04em;
   color: white;
 }
-
 
 .profile-img {
   float: left;
@@ -179,12 +179,6 @@ p {
   text-align: center;
 }
 
-.profile-card {
-  width: 50rem;
-  max-width: calc(100vw - 10px);
-  box-shadow: hsla(51, 100%, 50%, 1) 0px 10px 300px;
-}
-
 i {
   color: hsla(360, 100%, 100%, 1)
 }
@@ -212,4 +206,4 @@ li {
   float: none;
   display: block;
   text-align: left;
-  }
+}
